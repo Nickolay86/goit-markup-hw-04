@@ -147,7 +147,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bg\ img.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 50%;
     max-width: 1600px;
 
     padding-top: 200px;
@@ -306,6 +306,8 @@ h1,h2,h3,h4,h5,h6,p{
 .team-post{
     padding-top: 94px;  
     padding-bottom: 94px;
+
+    background-color: #F5F4FA;
 }
 
 .team-tittle{
@@ -382,7 +384,8 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 50%;
 }
 
-.socials-link:hover{
+.socials-link:hover,
+.socials-link:focus{
     background-color: var(--accent-cl)
 }
 
