@@ -142,28 +142,26 @@ h1,h2,h3,h4,h5,h6,p{
     fill: var(--accent-cl);
 }
 
-.hero{
-    
-    max-width: 1600px;
-        height: 600px;
+.hero {
+        width: 1600px;
         background: var(--secondary-bg-cl);
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
             url(../images/bg\ img.jpg);
-        
+    
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     
         text-align: center;
     
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
+        
     
     
         padding-top: 200px;
         padding-bottom: 200px;
-    
 }
+
 
 .hero-container{
    text-align: center;
